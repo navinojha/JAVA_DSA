@@ -6,9 +6,6 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class IsEvenOrOdd {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="
-        // /> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         if((n & 1) != 0){
